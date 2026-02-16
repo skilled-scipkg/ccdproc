@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "ccdproc-api-and-scripting",
+    "ccdproc-getting-started",
+    "ccdproc-templates",
+    "ccdproc-tests",
+    "ccdproc-parallel-hpc",
+    "ccdproc-license"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/ccdproc-api-and-scripting.md",
+    "skills/.evidence/ccdproc-getting-started.md",
+    "skills/.evidence/ccdproc-templates.md",
+    "skills/.evidence/ccdproc-tests.md",
+    "skills/.evidence/ccdproc-parallel-hpc.md",
+    "skills/.evidence/ccdproc-license.md"
+  ]
+}

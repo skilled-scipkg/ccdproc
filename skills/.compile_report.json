@@ -1,0 +1,94 @@
+{
+  "compiled_package_id": "ccdproc",
+  "evidence": {
+    "core_skills": [
+      "ccdproc-api-and-scripting",
+      "ccdproc-getting-started",
+      "ccdproc-templates",
+      "ccdproc-tests",
+      "ccdproc-parallel-hpc",
+      "ccdproc-license"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/ccdproc-api-and-scripting.md",
+      "skills/.evidence/ccdproc-getting-started.md",
+      "skills/.evidence/ccdproc-templates.md",
+      "skills/.evidence/ccdproc-tests.md",
+      "skills/.evidence/ccdproc-parallel-hpc.md",
+      "skills/.evidence/ccdproc-license.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Importable source code lives under ccdproc/ (no top-level src/ layout).",
+      "Tutorial/example content is documentation-centric (for example docs/reduction_examples.rst).",
+      "Patched sci-skills-generator/scripts/generate_skills_folder.py to fix invalid f-string joins for deterministic dry-run execution."
+    ],
+    "package_name": "ccdproc",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "ccdproc"
+    ],
+    "test_dirs": [
+      "ccdproc/tests",
+      "ccdproc/utils/tests"
+    ],
+    "tutorial_dirs": [
+      "docs"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/ccdproc-ccdproc",
+  "validation": {
+    "core_skills_checked": [
+      "ccdproc-advanced-topics",
+      "ccdproc-templates",
+      "ccdproc-getting-started",
+      "ccdproc-api-and-scripting",
+      "ccdproc-parallel-hpc",
+      "ccdproc-tests"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/ccdproc-ccdproc/skills/ccdproc-advanced-topics/SKILL.md: missing `## High-Signal Playbook` section."
+    ],
+    "index_skills": [
+      "ccdproc-index"
+    ],
+    "ok": false,
+    "skills_total": 8,
+    "source_links_total": 43,
+    "topic_skills": 7,
+    "warnings": []
+  }
+}
